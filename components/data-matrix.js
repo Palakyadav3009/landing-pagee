@@ -1,4 +1,4 @@
-const DataMatrix = () => {
+const Footer = () => {
   return (
     <footer className="mr-[-58px] w-[1556px] [background:linear-gradient(180deg,_#1a1919,_#0b0b0b)] overflow-hidden flex flex-col items-start justify-start py-[60px] px-[142px] box-border gap-[41px] shrink-0 max-w-[108%] z-[11] mt-[-372px] text-left text-41xl text-white font-text-sm-regular mq450:pb-[39px] mq450:box-border mq800:gap-[20px] mq800:pl-[35px] mq800:pr-[35px] mq800:box-border mq1350:pl-[71px] mq1350:pr-[71px] mq1350:box-border">
       <div className="w-[1067px] flex flex-row items-start justify-start py-0 px-4 box-border max-w-full">
@@ -60,4 +60,4 @@ const DataMatrix = () => {
   );
 };
 
-export default DataMatrix;
+export default Footer;

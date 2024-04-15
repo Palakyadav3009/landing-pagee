@@ -1,7 +1,7 @@
 import FrameComponent5 from "./frame-component5";
 import FrameComponent4 from "./frame-component4";
 
-const FrameComponent3 = () => {
+const Header = () => {
   return (
     <div className="self-stretch flex flex-row items-start justify-center py-0 pr-[30px] pl-5 box-border max-w-full text-left text-77xl text-g-25 font-text-sm-regular">
       <div className="w-[1234px] flex flex-row items-start justify-start relative max-w-full">
@@ -93,4 +93,4 @@ const FrameComponent3 = () => {
   );
 };
 
-export default FrameComponent3;
+export default Header;

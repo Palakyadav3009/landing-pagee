@@ -1,7 +1,7 @@
 import InputFilter from "./input-filter";
 import FrameComponent5 from "./frame-component5";
 
-const DataAggregator = () => {
+const ResidentalCS = () => {
   return (
     <div className="w-[1248px] flex flex-col items-start justify-start py-0 pr-0 pl-5 box-border gap-[50px] max-w-full text-left text-xl text-g-25 font-text-sm-regular mq800:gap-[25px]">
       <div className="self-stretch flex flex-row items-start justify-center py-0 pr-5 pl-[37px]">
@@ -68,4 +68,4 @@ const DataAggregator = () => {
   );
 };
 
-export default DataAggregator;
+export default ResidentalCS;

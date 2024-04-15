@@ -1,8 +1,8 @@
-import FrameComponent3 from "../components/frame-component3";
-import DataAggregator from "../components/data-aggregator";
+import Header from "../components/frame-component3";
+import ResidentalCS from "../components/data-aggregator";
 import FrameComponent2 from "../components/frame-component2";
 import FrameComponent1 from "../components/frame-component1";
-import DataMatrix from "../components/data-matrix";
+import Footer from "../components/data-matrix";
 import FrameComponent from "../components/frame-component";
 
 const LandingPage = () => {
@@ -24,11 +24,11 @@ const LandingPage = () => {
         </button>
       </div>
       <div className="w-[1749px] h-[548px] absolute !m-[0] right-[-652px] bottom-[966.85px] rounded-[50%] [background:radial-gradient(50%_50%_at_50%_50%,_rgba(200,_200,_200,_0.1),_rgba(7,_6,_6,_0))] [transform:_rotate(-29.8deg)] [transform-origin:0_0] z-[11]" />
-      <FrameComponent3 />
+      <Header />
       <main className="self-stretch flex flex-col items-end justify-start py-0 pr-1 pl-0 box-border max-w-full">
         <section className="self-stretch bg-gray-500 overflow-hidden flex flex-col items-end justify-start pt-[115px] pb-[256.2px] pr-[100px] pl-1 box-border relative gap-[597px] max-w-full z-[9] text-left text-xs text-g-50 font-text-sm-regular mq450:gap-[75px] mq450:pt-[21px] mq450:pb-[46px] mq450:box-border mq800:gap-[149px] mq800:pr-[25px] mq800:box-border mq1125:pt-8 mq1125:pb-[71px] mq1125:box-border mq1350:gap-[298px] mq1350:pt-[49px] mq1350:pr-[50px] mq1350:pb-[109px] mq1350:box-border">
           <div className="w-[1749px] h-[548px] absolute !m-[0] right-[-825px] bottom-[-127.15px] rounded-[50%] [background:radial-gradient(50%_50%_at_50%_50%,_rgba(200,_200,_200,_0.1),_rgba(7,_6,_6,_0))] [transform:_rotate(-29.8deg)] [transform-origin:0_0] z-[3]" />
-          <DataAggregator />
+          <ResidentalCS />
           <FrameComponent2 />
           <div className="mr-[-104px] w-[1440px] flex flex-col items-start justify-start shrink-0 max-w-[108%]">
             <div className="w-[1152.4px] flex flex-col items-end justify-start pt-[459px] pb-[121.8px] pr-[236.4px] pl-[100px] box-border relative gap-[267px] max-w-full mq450:gap-[33px] mq450:pr-5 mq450:box-border mq800:gap-[67px] mq800:pt-[194px] mq800:pb-[51px] mq800:pr-[59px] mq800:pl-[25px] mq800:box-border mq1125:gap-[133px] mq1125:pl-[50px] mq1125:pr-[118px] mq1125:box-border mq1350:pt-[298px] mq1350:pb-[79px] mq1350:box-border">
@@ -245,7 +245,7 @@ const LandingPage = () => {
           </div>
           <div className="w-[1221px] h-px absolute !m-[0] top-[1554px] right-[95px] box-border z-[12] border-t-[1px] border-solid border-gray-200" />
         </section>
-        <DataMatrix />
+        <Footer />
       </main>
       <FrameComponent />
     </div>
